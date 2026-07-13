@@ -29,17 +29,30 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 1.5rem;">
+<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 1rem;">
   <div class="contact-icons">
-    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email" style="margin-right: 15px; text-decoration: none;">
+      <i class="fas fa-envelope"></i> Email
+    </a>
     
-    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub" style="margin-right: 15px; text-decoration: none;">
+      <i class="fab fa-github"></i> GitHub
+    </a>
     
-    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="margin-right: 15px; text-decoration: none;">
+      <i class="ai ai-google-scholar"></i> Google Scholar
+    </a>
+
+    <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn" style="margin-right: 15px; text-decoration: none;">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
     
-    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV"><i class="fas fa-file-pdf"></i></a>
+    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV" style="text-decoration: none;">
+      <i class="ai ai-cv"></i> CV
+    </a>
   </div>
 </div>
+
 Greetings!
 
 I am an M.Sc. student in Power Engineering at [Nanyang Technological University, Singapore](https://www.ntu.edu.sg/)(NTU). Previously, I obtained my B.Sc. in Electrical Engineering and Automation from [Beijing Institute of Technology](https://www.bit.edu.cn/)(BIT). Also, I am a researcher in Electrical Engineering, with a strong focus on smart grid, renewable energy systems, and advanced control, optimisation, AI/digitalisation of sustainable power grids.

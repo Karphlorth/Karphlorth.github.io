@@ -6,7 +6,7 @@ subtitle: M.Sc Student in Power Engineering.
 
 profile:
   align: right
-  image: Jida Wang.jpg
+  image: Jida_Wang.jpg
   image_circular: false 
   more_info: >
     <p>50 Nanyang Ave</p>

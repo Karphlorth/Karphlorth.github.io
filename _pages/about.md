@@ -9,7 +9,7 @@ profile:
   image: Jida_Wang.jpg
   image_circular: false 
   more_info: >
-    <p>Jida Wang(王骥达, Everett Somerville)</p>
+    <p>Jida Wang<br>(王骥达, Everett Somerville)</p>
 
 news: false 
 latest_posts: false
@@ -32,7 +32,7 @@ latest_posts:
 <div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;">
   <div class="contact-icons" style="font-size: 0.5rem !important;">
     
-    <a href="mailto:your_email@example.com" target="_blank" title="Email" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+    <a href="mailto:your_email@example.com" target="_blank" title="JWANG115@e.ntu.edu.sg" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
       <i class="fas fa-envelope" style="font-size: 0.85rem !important;"></i> Email
     </a>
     
@@ -48,7 +48,7 @@ latest_posts:
       <i class="fab fa-linkedin" style="font-size: 0.85rem !important;"></i> LinkedIn
     </a>
     
-    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV" style="font-size: 0.85rem !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="Curriculum Vitae" style="font-size: 0.85rem !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
       <i class="ai ai-cv" style="font-size: 0.85rem !important;"></i> CV
     </a>
     

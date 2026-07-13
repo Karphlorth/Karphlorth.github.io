@@ -9,7 +9,10 @@ profile:
   image: Jida_Wang.jpg
   image_circular: false 
   more_info: >
-    <p>Jida Wang<br>(王骥达, Everett Somerville)</p>
+    <div style="text-align: center !important; width: 100%;">
+      <p style="margin-bottom: 0px; font-weight: bold;">Jida Wang</p>
+      <p style="font-size: 0.9rem; margin-top: 2px;">(王骥达, Everett Somerville)</p>
+    </div>
 
 news: false 
 latest_posts: false
@@ -32,8 +35,8 @@ latest_posts:
 <div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;">
   <div class="contact-icons" style="font-size: 0.5rem !important;">
     
-    <a href="mailto:your_email@example.com" target="_blank" title="JWANG115@e.ntu.edu.sg" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
-      <i class="fas fa-envelope" style="font-size: 0.85rem !important;"></i> Email
+    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="JWANG115@e.ntu.edu.sg" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="fas fa-envelope" style="font-size: 0.85rem !important;"></i> JWANG115@e.ntu.edu.sg
     </a>
     
     <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
@@ -49,7 +52,7 @@ latest_posts:
     </a>
     
     <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="Curriculum Vitae" style="font-size: 0.85rem !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
-      <i class="ai ai-cv" style="font-size: 0.85rem !important;"></i> CV
+      <i class="ai ai-cv" style="font-size: 0.85rem !important;"></i> Curriculum Vitae
     </a>
     
   </div>

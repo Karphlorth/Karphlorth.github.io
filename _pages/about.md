@@ -31,8 +31,13 @@ latest_posts:
 ---
 <div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 1.5rem;">
   <div class="contact-icons">
-    {% include social.html %}
-    <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank" title="CV"><i class="fas fa-file-pdf"></i></a>
+    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+    
+    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    
+    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    
+    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV"><i class="fas fa-file-pdf"></i></a>
   </div>
 </div>
 Greetings!

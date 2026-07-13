@@ -29,21 +29,21 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 1rem;">
+<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 0.8rem;">
   <div class="contact-icons">
-    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email" style="margin-right: 15px; text-decoration: none;">
+    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email" style="margin-right: 12px; text-decoration: none;">
       <i class="fas fa-envelope"></i> Email
     </a>
     
-    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub" style="margin-right: 15px; text-decoration: none;">
+    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub" style="margin-right: 12px; text-decoration: none;">
       <i class="fab fa-github"></i> GitHub
     </a>
     
-    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="margin-right: 15px; text-decoration: none;">
+    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="margin-right: 12px; text-decoration: none;">
       <i class="ai ai-google-scholar"></i> Google Scholar
     </a>
 
-    <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn" style="margin-right: 15px; text-decoration: none;">
+    <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn" style="margin-right: 12px; text-decoration: none;">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
     

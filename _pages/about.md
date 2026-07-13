@@ -1,17 +1,22 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.Sc Student in Power Engineering.
 
 profile:
   align: right
   image: Jida Wang.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false 
   more_info: >
-    <p>50 Nanyang Avenue</p>
+    <p>50 Nanyang Ave</p>
     <p>Singapore</p>
 
+news: false 
+latest_posts: false
+selected_papers: true 
+social: true 
+---
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

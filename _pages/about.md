@@ -29,7 +29,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 0.3rem;">
+<div class="social" style="text-align: left; margin-top: -10px; margin-bottom: 20px; font-size: 0.3rem !important;">
   <div class="contact-icons">
     <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email" style="margin-right: 12px; text-decoration: none;">
       <i class="fas fa-envelope"></i> Email

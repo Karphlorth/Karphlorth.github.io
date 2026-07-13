@@ -26,9 +26,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Greetings!
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a M.Sc. student in Power Engineering at [Nanyang Technological University, Singapore](https://www.ntu.edu.sg/)(NTU). Previously, I obtained my B.Sc. in Electrical Engineering and Automation from [Beijing Institute of Technology](https://www.bit.edu.cn/)(BIT). Also, I am a researcher in Electrical Engineering, with a strong focus on smart grid, renewable energy systems, and advanced control, optimisation, AI/digitalisation of sustainable power grids.
+ 
+Currently, I am conducting research on the Vulnerability Analysis of Renewable-Integrated Power Grids under False Data Injection Attacks (FDIA) and Resilience Enhancement in Sustainable Power Grids via Mamba-Driven Anomaly Detection under the supervision of [Dr. Yan Xu](https://eexuyan.github.io/soda/index.html) and [Dr. Ziming Yan](https://zm-learn.github.io/home/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

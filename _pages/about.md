@@ -29,48 +29,29 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<style>
-  .custom-social-container {
-    text-align: left; 
-    margin-top: -10px; 
-    margin-bottom: 20px;
-  }
-  /* 精确锁定容器内所有链接的字号与间距 */
-  .custom-social-container .contact-icons a {
-    font-size: 0.82rem !important;
-    margin-right: 12px !important;
-    text-decoration: none !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 4px !important; /* 控制图标与文字之间的微小间距 */
-  }
-  /* 精确锁定图标本身的字号 */
-  .custom-social-container .contact-icons i {
-    font-size: 0.82rem !important;
-  }
-</style>
-
-<div class="social custom-social-container">
-  <div class="contact-icons">
-    <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="Email">
-      <i class="fas fa-envelope"></i> Email
+<div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;">
+  <div class="contact-icons" style="font-size: 0.5rem !important;">
+    
+    <a href="mailto:your_email@example.com" target="_blank" title="Email" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="fas fa-envelope" style="font-size: 0.85rem !important;"></i> Email
     </a>
     
-    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-    
-    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar">
-      <i class="ai ai-google-scholar"></i> Google Scholar
+    <a href="https://scholar.google.com/citations?hl=en&user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="ai ai-google-scholar" style="font-size: 0.85rem !important;"></i> Google Scholar
     </a>
 
-    <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn">
-      <i class="fab fa-linkedin"></i> LinkedIn
+    <a href="https://github.com/Karphlorth" target="_blank" title="GitHub" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="fab fa-github" style="font-size: 0.85rem !important;"></i> GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="fab fa-linkedin" style="font-size: 0.85rem !important;"></i> LinkedIn
     </a>
     
-    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV">
-      <i class="ai ai-cv"></i> CV
+    <a href="{{ '/assets/pdf/Jida_Wang_s_CV.pdf' | relative_url }}" target="_blank" title="CV" style="font-size: 0.85rem !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;">
+      <i class="ai ai-cv" style="font-size: 0.85rem !important;"></i> CV
     </a>
+    
   </div>
 </div>
 

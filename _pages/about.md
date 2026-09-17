@@ -16,7 +16,7 @@ profile:
 
 news: false 
 latest_posts: false
-selected_papers: true 
+selected_papers: flase
 social: false 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -87,8 +87,10 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 ---
 
 <!-- 把这行代码放在你想要跳转的“简历/教育”部分的开头 -->
-<h2 id="cv">Curriculum Vitae</h2>
-(这里是你的简历内容...)
+<h2>Research Interests</h2>
+(i) modelling, optimisation, AI/digitalisation of renewable-energy power systems
+(ii) stability and control of renewable-energy power systems
+(iii) data-analytics for smart grid applications and electricity market
 
 ---
 <!-- 把这行代码放在“项目”部分的开头 -->

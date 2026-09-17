@@ -87,7 +87,7 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 ---
 
 <!-- 把这行代码放在你想要跳转的“简历/教育”部分的开头 -->
-<h2>Research Interests</h2>
+<h2 id="research">Research Interests</h2>
 (i) modelling, optimisation, AI/digitalisation of renewable-energy power systems
 
 (ii) stability and control of renewable-energy power systems
@@ -96,8 +96,23 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 
 ---
 <!-- 把这行代码放在“项目”部分的开头 -->
-<h2 id="projects">Projects</h2>
-(这里是你的项目内容...)
+<h2 id="experiences">Education</h2>
+<strong>Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore</strong><br>
+<em>08/2025-2027</em><br>
+M.Sc. in Power Engineering<br>
+<br>
+<strong>Beijing Institute of Technology, School of Automation, Beijing, China</strong><br>
+<em>08/2021-06/2025</em><br>
+B.Sc. in Electrical Engineering and Automation<br>
+<br>
+
+
+---
+<h2>Work Experiences</h2>
+<strong>Crystal Clear Environmental Pte Ltd, Singapore</strong><br>
+<em>08/2026-present</em><br>
+Data analysis, energy system modelling, electricity market trading intern<br>
+<br>
 
 ---
 <!-- 把这行代码放在“发表文章”部分的开头 -->
@@ -120,9 +135,8 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
     // 定义我们专属的“一页流”锚点菜单
     var menuItems = [
       { name: 'About', link: '{{ "/" | relative_url }}' },
-      { name: 'CV', link: '{{ "/" | relative_url }}#cv' },
-      { name: 'Projects', link: '{{ "/" | relative_url }}#projects' },
-      { name: 'Publications', link: '{{ "/" | relative_url }}#publications' }
+       { name: 'Research', link: '{{ "/" | relative_url }}#research' },
+      { name: 'Experiences', link: '{{ "/" | relative_url }}#Experiences' },
     ];
 
     // 按顺序把我们的菜单重新生成并塞进去

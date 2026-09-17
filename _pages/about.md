@@ -84,3 +84,19 @@ I am an M.Sc. student in Power Engineering at [Nanyang Technological University,
  
 Currently, I am conducting research on the Vulnerability Analysis of Renewable-Integrated Power Grids under False Data Injection Attacks (FDIA) and Resilience Enhancement in Sustainable Power Grids via Mamba-Driven Anomaly Detection at NTU, Singapore under the supervision of [Dr. Yan Xu](https://eexuyan.github.io/soda/index.html) and [Dr. Ziming Yan](https://zm-learn.github.io/home/). In the meantime, I am working as an Energy Analytics, Digital Operations and Electricity Market Trading Intern at [Crystal Clear Environmental Pte Ltd](https://www.crystalclear.com.sg/), Singapore.
 
+---
+
+<!-- 把这行代码放在你想要跳转的“简历/教育”部分的开头 -->
+<h2 id="cv">Curriculum Vitae</h2>
+(这里是你的简历内容...)
+
+---
+<!-- 把这行代码放在“项目”部分的开头 -->
+<h2 id="projects">Projects</h2>
+(这里是你的项目内容...)
+
+---
+<!-- 把这行代码放在“发表文章”部分的开头 -->
+<h2 id="publications">Publications</h2>
+(这里是你的文章内容...)
+

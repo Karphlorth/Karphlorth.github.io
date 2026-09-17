@@ -89,7 +89,9 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 <!-- 把这行代码放在你想要跳转的“简历/教育”部分的开头 -->
 <h2>Research Interests</h2>
 (i) modelling, optimisation, AI/digitalisation of renewable-energy power systems
+
 (ii) stability and control of renewable-energy power systems
+
 (iii) data-analytics for smart grid applications and electricity market
 
 ---

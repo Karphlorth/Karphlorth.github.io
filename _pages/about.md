@@ -127,7 +127,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
         
         <!-- 左侧图例：主题色缩写徽标 (Badge) -->
         <div class="col-sm-2 abbr">
-          <abbr class="badge">APPEEC</abbr>
+          <abbr class="badge">IEEE APPEEC 26</abbr>
         </div>
         
         <!-- 右侧内容详情 -->
@@ -138,7 +138,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
           </div>
           <!-- 作者名字 (用 strong 标签单独加粗你的名字) -->
           <div class="author">
-            <strong>Jida Wang</strong>, and Z. Yan
+            <strong>J. Wang*†</strong>, and Z. Yan
           </div>
           <!-- 会议/期刊信息 (用 em 标签呈现斜体) -->
           <div class="periodical">
@@ -146,7 +146,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
           </div>
           <!-- 附加信息注释 -->
           <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);">
-            (* Corresponding author, † Equal contribution)
+            (@ NTU, Singapore)
           </div>
           
           <!-- 底部按钮组 (Links) -->
@@ -166,7 +166,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
         
         <!-- 左侧图例：主题色缩写徽标 (Badge) -->
         <div class="col-sm-2 abbr">
-          <abbr class="badge">IESES</abbr>
+          <abbr class="badge">IEEE IESES 25</abbr>
         </div>
         
         <!-- 右侧内容详情 -->
@@ -175,7 +175,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
             Optimized Scheduling Strategy for Power Grids Considering Complementary Characteristics of Renewable Energy Forecast Errors
           </div>
           <div class="author">
-            <strong>Jida Wang</strong>, W. Liu, J. Yang, X. Zhang, Z. Li, and Y. Huo
+            <strong>J. Wang*†</strong>, W. Liu, J. Yang, X. Zhang, Z. Li, and Y. Huo
           </div>
           <div class="periodical">
             <em>2025 IEEE 4th International Conference on Industrial Electronics for Sustainable Energy Systems (IESES)</em>, Beijing, China, pp. 571-576, Sep 2025
@@ -215,6 +215,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
       { name: 'About', link: '{{ "/" | relative_url }}' },
        { name: 'Research', link: '{{ "/" | relative_url }}#research' },
       { name: 'Experiences', link: '{{ "/" | relative_url }}#experiences' },
+      { name: 'Publications', link: '{{ "/" | relative_url }}#publications' },
     ];
 
     // 按顺序把我们的菜单重新生成并塞进去

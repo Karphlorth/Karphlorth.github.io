@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
@@ -8,7 +8,7 @@ nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
-
+<style> /* 强制替换网页主题色为深蓝色 */ :root, html[data-theme="dark"] { --global-theme-color: #4169E1 !important; --global-hover-color: #4169E1 !important; --global-hover-icon-color: #4169E1 !important; } /* 强制替换主页所有元素的字体为 Times New Roman */ body, p, a, div, span, li, td, th, h1, h2, h3, h4, h5, h6, strong, em { font-family: "Times New Roman", Times, serif !important; } </style> <style> p { text-align: justify !important; } </style>
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

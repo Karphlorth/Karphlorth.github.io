@@ -20,7 +20,7 @@ selected_papers: True
 publications_title: Publications
 social: false 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -118,7 +118,84 @@ Data analysis, energy system modelling, electricity market trading intern<br>
 ---
 <!-- 把这行代码放在“发表文章”部分的开头 -->
 <h2 id="publications">Publications</h2>
+<div class="publications">
+  <ol class="bibliography" style="padding-left: 0; list-style: none;">
+    
+    <!-- ==================== 第一篇论文：APPEEC26 ==================== -->
+    <li style="margin-bottom: 2rem;">
+      <div class="row">
+        
+        <!-- 左侧图例：主题色缩写徽标 (Badge) -->
+        <div class="col-sm-2 abbr">
+          <abbr class="badge">APPEEC</abbr>
+        </div>
+        
+        <!-- 右侧内容详情 -->
+        <div class="col-sm-10">
+          <!-- 论文标题 -->
+          <div class="title">
+            A Mamba-Based Denoising Autoencoder for Stealthy FDIA Detection in Power Systems
+          </div>
+          <!-- 作者名字 (用 strong 标签单独加粗你的名字) -->
+          <div class="author">
+            <strong>Jida Wang</strong>, and Z. Yan
+          </div>
+          <!-- 会议/期刊信息 (用 em 标签呈现斜体) -->
+          <div class="periodical">
+            <em>2026 IEEE 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)</em>, Singapore, Aug 2026
+          </div>
+          <!-- 附加信息注释 -->
+          <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);">
+            (* Corresponding author, † Equal contribution)
+          </div>
+          
+          <!-- 底部按钮组 (Links) -->
+          <div class="links">
+            <!-- 这里为你预留了 PDF 和 Code 按钮的格式，如果你以后有了链接，把 # 换成真实网址即可，现在加上能让你看看图例效果 -->
+            <!-- <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a> -->
+            <!-- <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a> -->
+          </div>
+        </div>
 
+      </div>
+    </li>
+
+    <!-- ==================== 第二篇论文：IESES25 ==================== -->
+    <li style="margin-bottom: 2rem;">
+      <div class="row">
+        
+        <!-- 左侧图例：主题色缩写徽标 (Badge) -->
+        <div class="col-sm-2 abbr">
+          <abbr class="badge">IESES</abbr>
+        </div>
+        
+        <!-- 右侧内容详情 -->
+        <div class="col-sm-10">
+          <div class="title">
+            Optimized Scheduling Strategy for Power Grids Considering Complementary Characteristics of Renewable Energy Forecast Errors
+          </div>
+          <div class="author">
+            <strong>Jida Wang</strong>, W. Liu, J. Yang, X. Zhang, Z. Li, and Y. Huo
+          </div>
+          <div class="periodical">
+            <em>2025 IEEE 4th International Conference on Industrial Electronics for Sustainable Energy Systems (IESES)</em>, Beijing, China, pp. 571-576, Sep 2025
+          </div>
+          <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);">
+            (* Corresponding author, † Equal contribution)
+          </div>
+          
+          <!-- 底部按钮组 (Links) -->
+          <div class="links">
+            <!-- 这是真实的 DOI 跳转按钮图例 -->
+            <a href="https://doi.org/10.1109/IESES66335.2025.11359939" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+          </div>
+        </div>
+
+      </div>
+    </li>
+
+  </ol>
+</div>
 
 <!-- 绕过底层限制，使用 JS 强行接管并重构导航栏 -->
 <script>

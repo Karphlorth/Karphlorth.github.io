@@ -102,5 +102,10 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 ---
 <!-- 把这行代码放在“发表文章”部分的开头 -->
 <h2 id="publications">Publications</h2>
-(这里是你的文章内容...)
+
+
+<style>
+  html { scroll-behavior: smooth !important; }
+  h2[id] { scroll-margin-top: 80px; }
+</style>
 

@@ -104,6 +104,46 @@ Currently, I am conducting research on the Vulnerability Analysis of Renewable-I
 <h2 id="publications">Publications</h2>
 
 
+<!-- 绕过底层限制，使用 JS 强行接管并重构导航栏 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 找到网页顶部的导航栏菜单容器
+    var navUl = document.querySelector('#navbarNav ul.navbar-nav');
+    if (!navUl) return;
+    
+    // 把右上角的 太阳/月亮 主题切换按钮先备份存起来
+    var themeToggle = navUl.querySelector('.toggle-container');
+    
+    // 霸道清空系统自动生成的死板导航栏
+    navUl.innerHTML = '';
+    
+    // 定义我们专属的“一页流”锚点菜单
+    var menuItems = [
+      { name: 'About', link: '{{ "/" | relative_url }}' },
+      { name: 'CV', link: '{{ "/" | relative_url }}#cv' },
+      { name: 'Projects', link: '{{ "/" | relative_url }}#projects' },
+      { name: 'Publications', link: '{{ "/" | relative_url }}#publications' }
+    ];
+
+    // 按顺序把我们的菜单重新生成并塞进去
+    menuItems.forEach(function(item) {
+      var li = document.createElement('li');
+      li.className = 'nav-item';
+      var a = document.createElement('a');
+      a.className = 'nav-link';
+      a.href = item.link;
+      a.innerText = item.name;
+      li.appendChild(a);
+      navUl.appendChild(li);
+    });
+
+    // 最后把主题切换按钮放回最右边，保证夜间模式功能正常
+    if (themeToggle) {
+      navUl.appendChild(themeToggle);
+    }
+  });
+</script>
+
 <style>
   html { scroll-behavior: smooth !important; }
   h2[id] { scroll-margin-top: 80px; }

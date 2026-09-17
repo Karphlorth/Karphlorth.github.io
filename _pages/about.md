@@ -1,18 +1,4 @@
 ---
-<!-- 安全的全局样式覆盖：深蓝色主题与 Times New Roman 字体 -->
-<style>
-  /* 强制替换网页主题色为深蓝色 */
-  :root, html[data-theme="dark"] {
-    --global-theme-color: #4169E1 !important;
-    --global-hover-color: #4169E1 !important;
-    --global-hover-icon-color: #4169E1 !important;
-  }
-  
-  /* 强制替换主页所有元素的字体为 Times New Roman */
-  body, p, a, div, span, li, td, th, h1, h2, h3, h4, h5, h6, strong, em {
-    font-family: "Times New Roman", Times, serif !important;
-  }
-</style>
 layout: about
 title: About
 permalink: /
@@ -46,6 +32,20 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<!-- 安全的全局样式覆盖：深蓝色主题与 Times New Roman 字体 -->
+<style>
+  /* 强制替换网页主题色为深蓝色 */
+  :root, html[data-theme="dark"] {
+    --global-theme-color: #4169E1 !important;
+    --global-hover-color: #4169E1 !important;
+    --global-hover-icon-color: #4169E1 !important;
+  }
+  
+  /* 强制替换主页所有元素的字体为 Times New Roman */
+  body, p, a, div, span, li, td, th, h1, h2, h3, h4, h5, h6, strong, em {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+</style>
 <style>
   p {
     text-align: justify !important;

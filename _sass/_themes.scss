@@ -1,5 +1,5 @@
-$my-custom-dark-blue: #4169E1; 
-$my-custom-hover-blue: #4169E1; /* 鼠标放上去时稍微变亮的蓝色 */
+$my-custom-dark-blue: #00B0F0; 
+$my-custom-hover-blue: #00B0F0; /* 鼠标放上去时稍微变亮的蓝色 */
 
 :root {
   /* ☀️ 浅色（白天）模式的主题色 */
@@ -14,4 +14,14 @@ html[data-theme="dark"] {
   --global-theme-color: #{$my-custom-dark-blue};
   --global-hover-color: #{$my-custom-hover-blue};
   --global-hover-icon-color: #{$my-custom-hover-blue};
+}
+
+/* 覆盖正文、导航栏和所有普通文本 */
+body, p, a, div, span, li, td, th {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* 覆盖所有标题 (你的名字、各个板块的大标题等) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", Times, serif !important;
 }

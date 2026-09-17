@@ -35,6 +35,10 @@ latest_posts:
 ---
 <!-- 安全的全局样式覆盖：深蓝色主题与 Times New Roman 字体 -->
 <style>
+  strong, b {
+    font-weight: bold !important;
+    font-family: "Times New Roman", Times, serif !important;
+  }
   /* 强制替换网页主题色为深蓝色 */
   :root, html[data-theme="dark"] {
     --global-theme-color: #4169E1 !important;

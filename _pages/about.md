@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: M.Sc. Student in Power Engineering.
-
+search: true
 profile:
   align: right
   image: Jida_Wang.jpg

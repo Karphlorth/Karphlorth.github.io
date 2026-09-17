@@ -181,7 +181,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
             <em>2025 IEEE 4th International Conference on Industrial Electronics for Sustainable Energy Systems (IESES)</em>, Beijing, China, pp. 571-576, Sep 2025
           </div>
           <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);">
-            (* Corresponding author, † Equal contribution)
+            (@ BIT Beijing, China)
           </div>
           
           <!-- 底部按钮组 (Links) -->
@@ -206,7 +206,8 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     
     // 把右上角的 太阳/月亮 主题切换按钮先备份存起来
     var themeToggle = navUl.querySelector('.toggle-container');
-    
+    var searchBtnNode = navUl.querySelector('#search-toggle');
+    var searchButtonItem = searchBtnNode ? searchBtnNode.closest('li') : null;
     // 霸道清空系统自动生成的死板导航栏
     navUl.innerHTML = '';
     
@@ -229,7 +230,9 @@ Data analysis, energy system modelling, electricity market trading intern<br>
       li.appendChild(a);
       navUl.appendChild(li);
     });
-
+    if (searchButtonItem) {
+      navUl.appendChild(searchButtonItem);
+    }
     // 最后把主题切换按钮放回最右边，保证夜间模式功能正常
     if (themeToggle) {
       navUl.appendChild(themeToggle);

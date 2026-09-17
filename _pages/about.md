@@ -35,6 +35,11 @@ latest_posts:
 ---
 <!-- 安全的全局样式覆盖：深蓝色主题与 Times New Roman 字体 -->
 <style>
+   #navbarNav ul.navbar-nav {
+    visibility: hidden;
+  }
+  html { scroll-behavior: smooth !important; }
+  h2[id] { scroll-margin-top: 80px; }
   strong, b {
     font-weight: bold !important;
     font-family: "Times New Roman", Times, serif !important;
@@ -241,11 +246,10 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     if (themeToggle) {
       navUl.appendChild(themeToggle);
     }
+    // --- 任务3：【防闪烁核心】新菜单准备就绪，解除隐身状态 ---
+    navUl.style.visibility = 'visible';
   });
 </script>
 
-<style>
-  html { scroll-behavior: smooth !important; }
-  h2[id] { scroll-margin-top: 80px; }
-</style>
+
 

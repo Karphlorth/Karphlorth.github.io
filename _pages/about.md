@@ -16,7 +16,8 @@ profile:
 
 news: false 
 latest_posts: false
-selected_papers: flase
+selected_papers: True
+publications_title: Publications
 social: false 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -136,7 +137,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     var menuItems = [
       { name: 'About', link: '{{ "/" | relative_url }}' },
        { name: 'Research', link: '{{ "/" | relative_url }}#research' },
-      { name: 'Experiences', link: '{{ "/" | relative_url }}#Experiences' },
+      { name: 'Experiences', link: '{{ "/" | relative_url }}#experiences' },
     ];
 
     // 按顺序把我们的菜单重新生成并塞进去

@@ -3,17 +3,17 @@ $my-custom-hover-blue: #00B0F0; /* 鼠标放上去时稍微变亮的蓝色 */
 
 :root {
   /* ☀️ 浅色（白天）模式的主题色 */
-  --global-theme-color: #{$my-custom-dark-blue};
-  --global-hover-color: #{$my-custom-hover-blue};
-  --global-hover-icon-color: #{$my-custom-hover-blue};
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color};
+  --global-hover-icon-color: #{$blue-color};
 }
 
 html[data-theme="dark"] {
   /* 🌙 深色（夜晚）模式的主题色 */
   /* 夜间模式建议用稍亮一点的蓝，否则在黑底上看不清。这里我们暂时用深蓝，你可以自己调 */
-  --global-theme-color: #{$my-custom-dark-blue};
-  --global-hover-color: #{$my-custom-hover-blue};
-  --global-hover-icon-color: #{$my-custom-hover-blue};
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color};
+  --global-hover-icon-color: #{$blue-color};
 }
 
 /* 覆盖正文、导航栏和所有普通文本 */

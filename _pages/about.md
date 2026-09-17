@@ -32,6 +32,11 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<style>
+  p {
+    text-align: justify !important;
+  }
+</style>
 <div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;">
   <div class="contact-icons" style="font-size: 0.5rem !important;">
     

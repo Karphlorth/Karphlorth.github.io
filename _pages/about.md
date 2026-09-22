@@ -35,9 +35,6 @@ latest_posts:
 ---
 <!-- 安全的全局样式覆盖：深蓝色主题与 Times New Roman 字体 -->
 <style>
-   #navbarNav ul.navbar-nav {
-    visibility: hidden;
-  }
   html { scroll-behavior: smooth !important; }
   h2[id] { scroll-margin-top: 80px; }
   strong, b {

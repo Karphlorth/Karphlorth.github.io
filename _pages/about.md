@@ -245,13 +245,21 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     }
 })();
 </script>
+<!-- ================== 页面底部：访客统计地图挂件 ================== -->
 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px; margin-bottom: 30px;">
   
-  <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats">
-    <!-- 使用 img 标签直接加载静态图片，尺寸设置得小巧精致 -->
-    <img src="https://mapmyvisitors.com/map.png?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff" alt="MapMyVisitors" style="width: 250px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <!-- 1. 你的专属记录链接。宽度限制为 220px，这是学术主页最优雅的挂件尺寸 -->
+  <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats" style="width: 220px; display: block;">
+    
+    <!-- 2. “玻璃罩”：屏蔽内部原有的点击事件，强制让外面的 <a> 链接接管跳转 -->
+    <div style="pointer-events: none;">
+      
+      <!-- 3. 注意看：我把你原本代码最后的 &w=a 改成了 &w=250，强制向服务器请求小尺寸图片 -->
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=250"></script>
+      
+    </div>
+    
   </a>
-  
 </div>
 
 

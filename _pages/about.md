@@ -208,7 +208,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
 
 <!-- 绕过底层限制，使用 JS 强行接管并重构导航栏 -->
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  (function() {
     // 找到网页顶部的导航栏菜单容器
     var navUl = document.querySelector('#navbarNav ul.navbar-nav');
     if (!navUl) return;
@@ -246,9 +246,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     if (themeToggle) {
       navUl.appendChild(themeToggle);
     }
-    // --- 任务3：【防闪烁核心】新菜单准备就绪，解除隐身状态 ---
-    navUl.style.visibility = 'visible';
-  });
+})();
 </script>
 
 

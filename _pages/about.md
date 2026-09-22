@@ -245,6 +245,9 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     }
 })();
 </script>
+<div style="width: 100%; display: flex; justify-content: center; margin-top: 50px; margin-bottom: 30px;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=a"></script>
+</div>
 
 
 

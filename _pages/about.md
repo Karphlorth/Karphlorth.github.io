@@ -245,20 +245,11 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     }
 })();
 </script>
-<div style="width: 100%; display: flex; justify-content: center; margin-top: 50px; margin-bottom: 30px;">
+<div style="width: 250px; margin: 50px auto 30px auto; text-align: center;">
   
-  <!-- 1. 你的专属记录链接。宽度限制为 220px，这是学术主页最优雅的挂件尺寸 -->
-  <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats" style="width: 220px; display: block;">
-    
-    <!-- 2. “玻璃罩”：屏蔽内部原有的点击事件，强制让外面的 <a> 链接接管跳转 -->
-    <div style="pointer-events: none;">
-      
-      <!-- 3. 注意看：我把你原本代码最后的 &w=a 改成了 &w=250，强制向服务器请求小尺寸图片 -->
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=250"></script>
-      
-    </div>
-    
-  </a>
+  <!-- 直接调用官方原生脚本，它会自动限制在250px宽度，并自带点击跳转后台的功能 -->
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=a"></script>
+
 </div>
 
 

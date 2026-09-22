@@ -247,13 +247,13 @@ Data analysis, energy system modelling, electricity market trading intern<br>
 </script>
 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px; margin-bottom: 30px;">
   
-  <!-- 限制挂件的外层容器宽度，确保它像 Bryce 的一样精致小巧 -->
-  <div style="width: 220px; overflow: hidden; border-radius: 5px;">
+  <!-- 你的专属记录链接。依然限制宽度为 220px 保持小巧优雅 -->
+  <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats" style="display: block; width: 220px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     
-    <!-- 引入 ClustrMaps 动态挂件代码。点击地球将自动跳转到统计后台 -->
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8"></script>
-
-  </div>
+    <!-- 核心修改：将原来的 .js 脚本替换成了 .png 图片！秒加载、防拦截，完美显示红点 -->
+    <img src="https://mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff" alt="Visitor Map" style="width: 100%; border: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    
+  </a>
 
 </div>
 

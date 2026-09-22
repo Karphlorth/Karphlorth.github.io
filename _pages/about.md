@@ -52,6 +52,14 @@ latest_posts:
   body, p, a, div, span, li, td, th, h1, h2, h3, h4, h5, h6, strong, em {
     font-family: "Times New Roman", Times, serif !important;
   }
+  .profile img {
+    max-width: 220px !important; /* 强制缩小最大宽度，220px~250px 是学术主页最精致的尺寸 */
+    height: auto !important; /* 保证宽高比例不畸形 */
+    margin: 0 auto !important; /* 居中显示 */
+    display: block !important;
+    border-radius: 25px !important; /* 复刻 Bryce 的高级圆角 */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; /* 复刻 Bryce 的立体阴影 */
+  }
 </style>
 <style>
   p {

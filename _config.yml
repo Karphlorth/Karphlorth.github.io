@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Researcher in Electrical Engineering and Power System.
 footer_text: >
-  Supported by <a href="https://karphlorth.github.io/" target="_blank">Everett V. Somerville</a> & <a href="https://bryceyin13.github.io/" target="_blank">Clayton C. Tovey</a> from Grande, United Kingdom.
+  Supported by <a href="https://karphlorth.github.io/" target="_blank">Everett V. Somerville</a> & <a href="https://bryceyin13.github.io/" target="_blank">Clayton C. Tovey</a> from <a href="https://karphlorth.github.io/assets/pdf/Grande Map.pdf" target="_blank">Grande</a>, United Kingdom.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

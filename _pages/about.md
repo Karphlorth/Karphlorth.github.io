@@ -61,7 +61,7 @@ latest_posts:
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; /* 复刻 Bryce 的立体阴影 */
   }
   header nav.navbar {
-    background-color: #1A365D !important;
+    background-color: #4169E1 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
     border-bottom: none !important;
     padding: 15px 0 !important; /* 稍微加宽一点上下间距，更大气 */
@@ -277,6 +277,12 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     // 最后把主题切换按钮放回最右边，保证夜间模式功能正常
     if (themeToggle) {
       navUl.appendChild(themeToggle);
+    }
+    var navbarBrand = document.querySelector('.navbar-brand');
+    if (navbarBrand) {
+      navbarBrand.innerHTML = 'Nanyang Technological University';
+      navbarBrand.style.fontSize = '20px'; // 调整到有气势的大小
+      navbarBrand.classList.remove('font-weight-lighter'); // 移除系统自带的细体限制
     }
 })();
 </script>

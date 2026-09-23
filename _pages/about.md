@@ -333,9 +333,13 @@ Data analysis, energy system modelling, electricity market trading intern<br>
 </script>
 <div style="width: 250px; margin: 50px auto 30px auto; text-align: center;">
   
-  <!-- 直接调用官方原生脚本，它会自动限制在250px宽度，并自带点击跳转后台的功能 -->
+  <!-- 1. 强行接管跳转：直接写死你的专属数据面板链接，不再依赖官方脚本分配 -->
   <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats" style="display: block;">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=a"></script>
+    
+    <!-- 2. 强行接管渲染：不要 .js，直接索要 .png 图片，无视其 loading 状态瞬间显示 -->
+    <img src="//mapmyvisitors.com/map.png?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff" alt="MapMyVisitors" style="width: 100%; border: none;">
+    
+  </a>
 
 </div>
 

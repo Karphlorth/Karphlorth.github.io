@@ -30,6 +30,33 @@
     border-radius: 25px !important; /* 复刻 Bryce 的高级圆角 */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; /* 复刻 Bryce 的立体阴影 */
   }
+  header nav.navbar {
+    background-color: #1A365D !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    border-bottom: none !important;
+    padding: 15px 0 !important; /* 稍微加宽一点上下间距，更大气 */
+  }
+  
+  /* 2. 强制导航栏里的文字（学校名字、菜单项）和图标（日夜切换）变成白色 */
+  header nav.navbar .navbar-brand,
+  header nav.navbar .nav-link,
+  header nav.navbar i {
+    color: #ffffff !important;
+    font-weight: bold !important;
+  }
+  
+  /* 3. 鼠标悬停时，文字变成学术金 (完美复刻 Bryce 的效果) */
+  header nav.navbar .nav-link:hover,
+  header nav.navbar .navbar-brand:hover,
+  header nav.navbar i:hover {
+    color: #FFD700 !important;
+    transition: color 0.3s;
+  }
+  
+  /* 4. 修复手机端折叠菜单图标（汉堡按钮）的颜色，强制反转成白色 */
+  header nav.navbar .navbar-toggler-icon {
+    filter: invert(1) brightness(2) !important;
+  }
 </style> <style>
   p {
     text-align: justify !important;

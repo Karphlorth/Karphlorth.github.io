@@ -31,14 +31,22 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; /* 复刻 Bryce 的立体阴影 */
   }
   header nav.navbar {
-    background-color: #4169E1 !important;
+    background-color: #1A365D !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
     border-bottom: none !important;
     padding: 15px 0 !important; /* 稍微加宽一点上下间距，更大气 */
   }
   
   /* 2. 强制导航栏里的文字（学校名字、菜单项）和图标（日夜切换）变成白色 */
-  header nav.navbar .navbar-brand,
+  header nav.navbar .navbar-brand {
+    opacity: 1 !important; /* 破解 al-folio 默认的透明隐藏 */
+    visibility: visible !important; /* 强制可见 */
+    display: flex !important; 
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    transform: none !important; /* 破解默认的滚动位移动画 */
+  }
   header nav.navbar .nav-link,
   header nav.navbar i {
     color: #ffffff !important;
@@ -60,6 +68,29 @@
 </style> <style>
   p {
     text-align: justify !important;
+  }
+  header nav.navbar #light-toggle i,
+  header nav.navbar #search-toggle i,
+  header nav.navbar .toggle-container i,
+  header nav.navbar #light-toggle svg,
+  header nav.navbar #search-toggle svg,
+  header nav.navbar .toggle-container svg,
+  header nav.navbar button {
+    color: #ffffff !important;
+    fill: #ffffff !important; /* 专门针对 SVG 图形生效 */
+  }
+
+  /* 鼠标悬停时，强制变成学术金 */
+  header nav.navbar #light-toggle:hover i,
+  header nav.navbar #search-toggle:hover i,
+  header nav.navbar .toggle-container:hover i,
+  header nav.navbar #light-toggle:hover svg,
+  header nav.navbar #search-toggle:hover svg,
+  header nav.navbar .toggle-container:hover svg,
+  header nav.navbar button:hover {
+    color: #FFD700 !important;
+    fill: #FFD700 !important;
+    transition: all 0.3s ease;
   }
 </style> <div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;"> <div class="contact-icons" style="font-size: 0.5rem !important;"> <a href="mailto:JWANG115@e.ntu.edu.sg" target="_blank" title="JWANG115@e.ntu.edu.sg" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;"> <i class="fas fa-envelope" style="font-size: 0.85rem !important;"></i> JWANG115@e.ntu.edu.sg </a> <a href="https://scholar.google.com/citations?hl=en&amp;user=qsJbwesAAAAJ" target="_blank" title="Google Scholar" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;" rel="external nofollow noopener"> <i class="ai ai-google-scholar" style="font-size: 0.85rem !important;"></i> Google Scholar </a> <a href="https://github.com/Karphlorth" target="_blank" title="GitHub" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;" rel="external nofollow noopener"> <i class="fab fa-github" style="font-size: 0.85rem !important;"></i> GitHub </a> <a href="https://www.linkedin.com/in/jida-wang-6a9137391/" target="_blank" title="LinkedIn" style="font-size: 0.85rem !important; margin-right: 12px !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;" rel="external nofollow noopener"> <i class="fab fa-linkedin" style="font-size: 0.85rem !important;"></i> LinkedIn </a> <a href="/assets/pdf/Jida_Wang_s_CV.pdf" target="_blank" title="Curriculum Vitae" style="font-size: 0.85rem !important; text-decoration: none !important; display: inline-flex !important; align-items: center !important; gap: 4px !important;"> <i class="ai ai-cv" style="font-size: 0.85rem !important;"></i> Curriculum Vitae </a> </div> </div> <p>Greetings!</p> <p>I am an M.Sc. student in Power Engineering at <a href="https://www.ntu.edu.sg/" rel="external nofollow noopener" target="_blank">Nanyang Technological University, Singapore</a> (NTU). Previously, I obtained my B.Sc. in Electrical Engineering and Automation from <a href="https://www.bit.edu.cn/" rel="external nofollow noopener" target="_blank">Beijing Institute of Technology</a> (BIT). Also, I am a researcher in Electrical Engineering, with a strong focus on smart grid, renewable energy systems, and advanced control, optimisation, AI/digitalisation of sustainable power grids.</p> <p>Currently, I am conducting research on the Vulnerability Analysis of Renewable-Integrated Power Grids under False Data Injection Attacks (FDIA) and Resilience Enhancement in Sustainable Power Grids via Mamba-Driven Anomaly Detection at NTU, Singapore under the supervision of <a href="https://eexuyan.github.io/soda/index.html" rel="external nofollow noopener" target="_blank">Dr. Yan Xu</a> and <a href="https://zm-learn.github.io/home/" rel="external nofollow noopener" target="_blank">Dr. Ziming Yan</a>. In the meantime, I am working as an Energy Analytics, Digital Operations and Electricity Market Trading Intern at <a href="https://www.crystalclear.com.sg/" rel="external nofollow noopener" target="_blank">Crystal Clear Environmental Pte Ltd</a>, Singapore.</p> <hr> <h2 id="research">Research Interests</h2> <p>(i) modelling, optimisation, AI/digitalisation of renewable-energy power systems</p> <p>(ii) stability and control of renewable-energy power systems</p> <p>(iii) data-analytics for smart grid applications and electricity market</p> <hr> <h2 id="experiences">Education</h2> <p><strong>Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore</strong><br> <em>08/2025-2027</em><br> M.Sc. in Power Engineering<br> <br> <strong>Beijing Institute of Technology, School of Automation, Beijing, China</strong><br> <em>08/2021-06/2025</em><br> B.Sc. in Electrical Engineering and Automation<br> <br></p> <hr> <h2>Work Experiences</h2> <p><strong>Crystal Clear Environmental Pte Ltd, Singapore</strong><br> <em>08/2026-present</em><br> Data analysis, energy system modelling, electricity market trading intern<br> <br></p> <hr> <h2 id="publications">Publications</h2> <div class="publications"> <ol class="bibliography" style="padding-left: 0; list-style: none;"> <li style="margin-bottom: 2rem;"> <div class="row"> <div class="col-sm-2 abbr"> <abbr class="badge">IEEE APPEEC 26</abbr> </div> <div class="col-sm-10"> <div class="title"> A Mamba-Based Denoising Autoencoder for Stealthy FDIA Detection in Power Systems </div> <div class="author"> <strong>J. Wang*†</strong>, and Z. Yan </div> <div class="periodical"> <em>2026 IEEE 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)</em>, Singapore, Aug 2026 </div> <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);"> (@ NTU, Singapore) </div> <div class="links"> </div> </div> </div> </li> <li style="margin-bottom: 2rem;"> <div class="row"> <div class="col-sm-2 abbr"> <abbr class="badge">IEEE IESES 25</abbr> </div> <div class="col-sm-10"> <div class="title"> Optimized Scheduling Strategy for Power Grids Considering Complementary Characteristics of Renewable Energy Forecast Errors </div> <div class="author"> <strong>J. Wang*†</strong>, W. Liu, J. Yang, X. Zhang, Z. Li, and Y. Huo </div> <div class="periodical"> <em>2025 IEEE 4th International Conference on Industrial Electronics for Sustainable Energy Systems (IESES)</em>, Beijing, China, pp. 571-576, Sep 2025 </div> <div class="periodical" style="font-size: 0.85rem; color: var(--global-text-color-light);"> (@ BIT Beijing, China) </div> <div class="links"> <a href="https://doi.org/10.1109/IESES66335.2025.11359939" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">DOI</a> </div> </div> </div> </li> </ol> </div> <script>
   (function() {
@@ -100,11 +131,25 @@
     if (themeToggle) {
       navUl.appendChild(themeToggle);
     }
-    var navbarBrand = document.querySelector('.navbar-brand');
-    if (navbarBrand) {
-      navbarBrand.innerHTML = 'Nanyang Technological University';
-      navbarBrand.style.fontSize = '20px'; // 调整到有气势的大小
-      navbarBrand.classList.remove('font-weight-lighter'); // 移除系统自带的细体限制
+   var navbarContainer = document.querySelector('header nav.navbar .container');
+    if (navbarContainer) {
+      // 尝试寻找系统自带的 navbar-brand
+      var brand = navbarContainer.querySelector('.navbar-brand');
+      
+      // 如果系统根本没生成，我们就自己凭空造一个
+      if (!brand) {
+        brand = document.createElement('a');
+        brand.className = 'navbar-brand';
+        brand.href = '/';
+        // 将它强制插入到导航栏容器的最左边
+        navbarContainer.insertBefore(brand, navbarContainer.firstChild);
+      }
+      
+      // 强制写入学校名称
+      brand.innerText = 'Nanyang Technological University';
+      
+      // 扒掉所有可能导致它被系统动画隐藏的干扰类名
+      brand.classList.remove('title', 'font-weight-lighter'); 
     }
 })();
 </script> <div style="width: 250px; margin: 50px auto 30px auto; text-align: center;"> <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&amp;cl=ffffff&amp;w=a"></script> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jida (Everett) Wang. Supported by <a href="https://karphlorth.github.io/" target="_blank">Everett V. Somerville</a> &amp; <a href="https://bryceyin13.github.io/" target="_blank" rel="external nofollow noopener">Clayton C. Tovey</a> from Grande, United Kingdom. </div> </footer> <script>

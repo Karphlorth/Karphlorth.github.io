@@ -334,6 +334,7 @@ Data analysis, energy system modelling, electricity market trading intern<br>
 <div style="width: 250px; margin: 50px auto 30px auto; text-align: center;">
   
   <!-- 直接调用官方原生脚本，它会自动限制在250px宽度，并自带点击跳转后台的功能 -->
+  <a href="https://mapmyvisitors.com/web/1c8dx" target="_blank" title="View my visitor stats" style="display: block;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ecgg-f1gcziKRHGKLDvmWISgq92nFlDKlAQUxcDgGA8&cl=ffffff&w=a"></script>
 
 </div>

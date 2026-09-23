@@ -61,14 +61,22 @@ latest_posts:
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; /* 复刻 Bryce 的立体阴影 */
   }
   header nav.navbar {
-    background-color: #4169E1 !important;
+    background-color: #1A365D !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
     border-bottom: none !important;
     padding: 15px 0 !important; /* 稍微加宽一点上下间距，更大气 */
   }
   
   /* 2. 强制导航栏里的文字（学校名字、菜单项）和图标（日夜切换）变成白色 */
-  header nav.navbar .navbar-brand,
+  header nav.navbar .navbar-brand {
+    opacity: 1 !important; /* 破解 al-folio 默认的透明隐藏 */
+    visibility: visible !important; /* 强制可见 */
+    display: flex !important; 
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    transform: none !important; /* 破解默认的滚动位移动画 */
+  }
   header nav.navbar .nav-link,
   header nav.navbar i {
     color: #ffffff !important;
@@ -91,6 +99,29 @@ latest_posts:
 <style>
   p {
     text-align: justify !important;
+  }
+  header nav.navbar #light-toggle i,
+  header nav.navbar #search-toggle i,
+  header nav.navbar .toggle-container i,
+  header nav.navbar #light-toggle svg,
+  header nav.navbar #search-toggle svg,
+  header nav.navbar .toggle-container svg,
+  header nav.navbar button {
+    color: #ffffff !important;
+    fill: #ffffff !important; /* 专门针对 SVG 图形生效 */
+  }
+
+  /* 鼠标悬停时，强制变成学术金 */
+  header nav.navbar #light-toggle:hover i,
+  header nav.navbar #search-toggle:hover i,
+  header nav.navbar .toggle-container:hover i,
+  header nav.navbar #light-toggle:hover svg,
+  header nav.navbar #search-toggle:hover svg,
+  header nav.navbar .toggle-container:hover svg,
+  header nav.navbar button:hover {
+    color: #FFD700 !important;
+    fill: #FFD700 !important;
+    transition: all 0.3s ease;
   }
 </style>
 <div class="social" style="text-align: left !important; margin-top: -10px !important; margin-bottom: 20px !important;">
@@ -278,11 +309,25 @@ Data analysis, energy system modelling, electricity market trading intern<br>
     if (themeToggle) {
       navUl.appendChild(themeToggle);
     }
-    var navbarBrand = document.querySelector('.navbar-brand');
-    if (navbarBrand) {
-      navbarBrand.innerHTML = 'Nanyang Technological University';
-      navbarBrand.style.fontSize = '20px'; // 调整到有气势的大小
-      navbarBrand.classList.remove('font-weight-lighter'); // 移除系统自带的细体限制
+   var navbarContainer = document.querySelector('header nav.navbar .container');
+    if (navbarContainer) {
+      // 尝试寻找系统自带的 navbar-brand
+      var brand = navbarContainer.querySelector('.navbar-brand');
+      
+      // 如果系统根本没生成，我们就自己凭空造一个
+      if (!brand) {
+        brand = document.createElement('a');
+        brand.className = 'navbar-brand';
+        brand.href = '{{ "/" | relative_url }}';
+        // 将它强制插入到导航栏容器的最左边
+        navbarContainer.insertBefore(brand, navbarContainer.firstChild);
+      }
+      
+      // 强制写入学校名称
+      brand.innerText = 'Nanyang Technological University';
+      
+      // 扒掉所有可能导致它被系统动画隐藏的干扰类名
+      brand.classList.remove('title', 'font-weight-lighter'); 
     }
 })();
 </script>
